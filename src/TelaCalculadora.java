@@ -126,7 +126,10 @@ txtresultado.setText(String.valueOf(resultado));
     }//GEN-LAST:event_txtresultadoActionPerformed
 
     private void btnmultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmultiplicarActionPerformed
-        
+double numero1 = Double.parseDouble(txtprimeiro.getText());
+double numero2 = Double.parseDouble(txtsegundo.getText());
+double resultado = numero1 * numero2;
+txtresultado.setText(String.valueOf(resultado));        
     }//GEN-LAST:event_btnmultiplicarActionPerformed
 
     private void btndividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btndividirActionPerformed
